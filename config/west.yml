@@ -5,7 +5,7 @@ manifest:
     - name: ZitaoTech
       url-base: https://github.com/ZitaoTech
   projects:
-    - name: zmk_zitao
+    - name: zmk
       remote: ZitaoTech
       revision: bbkeyboard_tp
       import: app/west.yml
