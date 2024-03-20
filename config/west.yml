@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk_zitao
       remote: ZitaoTech
-      revision: bbkeyboards_tp
+      revision: bbkeyboard_tp
       import: app/west.yml
   self:
     path: config
