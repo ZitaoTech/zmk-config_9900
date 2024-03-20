@@ -1,0 +1,11 @@
+file_format: "1"
+id: bb9900
+name: bb9900
+type: board
+arch: arm
+features:
+  - keys
+outputs:
+  - usb
+  - ble
+url: https://github.com/ZitaoTech/BB9900-USB_BLE_Keyboard

@@ -1,0 +1,15 @@
+identifier: bb9900
+name: bb9900
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - adc
+  - i2c
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog
