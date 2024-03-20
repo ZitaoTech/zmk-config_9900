@@ -16,7 +16,6 @@
 #define SYM 1
 #define UPPER 2
 
-
 / {
     behaviors {
         td0: tap_dance_0 {
