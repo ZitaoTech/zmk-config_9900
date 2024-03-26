@@ -3,6 +3,7 @@
 Hey 👋 welcome. Use this repo to generate your own ZMK keymap. 
 
 ## Get started
+0. Register a github account if you don't have one.
 1. Fork this repo.  
 2. Open up `config/bb9900.keymap` and edit the keymap to your liking.  
 3. Check the Github Actions section. Your new firmware file should be available for download.  
