@@ -62,7 +62,7 @@
         sym_layer {
 
             bindings = <        
-                 &kp C_VOL_UP                                                                                       &mkp C_VOL_DN
+                 &kp C_VOL_UP                                                                                       &kp C_VOL_DN
     &kp PSCRN               &kp C_AC_SEARCH                     &mkp LCLK                          &kp F5                            &kp F12 
     &kp HASH     &kp N1     &kp N2      &kp N3    &mt LBKT LPAR &mt RBKT RPAR     &kp UNDER        &kp MINUS        &kp PLUS         &kp AT
     &kp STAR     &kp N4     &kp N5      &kp N6    &kp SLASH     &kp COLON         &kp SEMI         &kp APOS         &kp DQT          &kp DEL
