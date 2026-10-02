@@ -1,6 +1,4 @@
 /*
- * Copyright (c) 2023 ZitaoTech
- *
  * SPDX-License-Identifier: MIT
  */
    
@@ -15,6 +13,7 @@
 
 #define SYM 1
 #define UPPER 2
+#define GAMEPAD 3
 
 / {
     behaviors {
@@ -77,11 +76,22 @@
                  &msc SCRL_UP                                                                                       &msc SCRL_DOWN
     &bt BT_SEL 0            &bt BT_SEL 1                             &td0                           &bt BT_SEL 2                     &bt BT_SEL 3
     &none        &kp UP     &none       &sys_reset &ext_power EP_TOG &none         &kp LT           &kp GT          &kp PIPE         &kp KP_EQUAL
-    &kp LEFT     &kp DOWN   &kp RIGHT   &none      &kp BSLH          &kp AMPS      &kp LBRC         &kp RBRC        &kp CARET        &kp BSPC
+    &kp LEFT     &kp DOWN   &kp RIGHT   &none      &tog GAMEPAD      &kp AMPS      &kp LBRC         &kp RBRC        &kp CARET        &kp BSPC
     &kp LSHFT    &none      &none       &none      &bl BL_DEC        &bl BL_TOG    &bl BL_INC       &none           &bootloader      &kp ENTER
     &kp LCTRL               &kp LALT                                 &hm OUT_TOG SPACE              &tog SYM                         &tog UPPER
             >;
         };
+
+        gamepad_layer {
+
+            bindings = <
+                 &kp F25                                                                                            &kp F26
+    &none                   &none                               &mkp LCLK                          &none                             &none
+    &none        &kp UP     &none       &none      &none         &none             &kp F21          &kp F22          &none            &none
+    &kp LEFT     &kp DOWN   &kp RIGHT   &none      &tog GAMEPAD  &none             &kp F24          &kp F23          &none            &none
+    &none        &none      &none       &none      &none         &none             &none            &none            &none            &none
+    &none                   &none                                &kp SPACE                          &none                            &none
+            >;
+        };
     };
 };
-
